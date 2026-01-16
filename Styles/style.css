@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+
+    position: sticky;
+     top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.logo {
+    justify-self: start;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+.logo span {
+    display: inline-block;
+    font-size: 20px;
+    border: 5px ridge white;
+    padding: 5px 15px;
+}
+.slogan {
+    justify-self: center;
+    text-align: center;
+    color: aquamarine;
+    font-size: 32px;
+}
+.menu {
+  justify-self: end;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.menu a:hover {
+  color: aquamarine;
+}
+main {
+  background-color: beige;
+  color: #222;
+  padding: 30px 100px;
+  font-size: 16px;
+}
+.page-title {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+/* INDEX PAGE STYLES */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.banner {
+  margin-bottom: 50px;
+}
+/* SCHEDULE PAGE STYLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+}
+thead th {
+  background-color: black;
+  color: white;
+}
+tbody th {
+  background-color: black;
+  color: white;
+}
+/* TREATMENTS PAGE STYLES */
+.treatmentmain {
+  display: grid;
+  grid-template-columns: 6fr 3fr 3fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+.treat-box1{
+  border: 2px solid black;
+  padding: 15px;
+}
+.treat-box2{
+  border: 2px solid black;
+  padding: 15px;
+}
+.treat-box3{
+  border: 2px solid black;
+  padding: 15px;
+}
+.treat-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.treat-box hr {
+  margin: 16px 0;
+}
+.subheading,
+.price {
+  text-align: center;
+}
+/* Reflections PAGE STYLES */
+.reflection-text {
+  margin-bottom: 50px;
+}
+
+.response-title {
+  color: red;
+  margin-bottom: 15px;
+}
